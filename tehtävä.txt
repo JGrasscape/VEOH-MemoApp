@@ -1,0 +1,7 @@
+- Lisää Delete-nappi, jolla voi poistaa noten.
+
+<input type=number name="index">
+
+- Käsittele /delete-note POST pyyntö
+
+notes.splice(index, 1)
